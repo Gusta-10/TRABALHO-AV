@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <H1 id="titulo">RESTAURANTE LA PIZZA<H1>
+      
+    <input type="text" id="ibusca" placeholder="buscar pizzas" onkeyup="myFunction()" />
+    <BR><BR>
+    <table id="tbusca">
+      <tr class="header">
+        <th style="width:50%;text-align:right;">PIZZAS</th>
+        <th style="width:0%;"></th>
+        </tr>
+        <tr>
+          
+          <td><img src="https://t1.rg.ltmcdn.com/pt/images/9/8/3/img_pizza_calabresa_e_mussarela_4389_600.jpg" alt="pizza de calabresa" width="" height="100" style="float:left;">CALABRESA VALOR R$35</td>
+          <td><input type="number" placeholder="Quantidade" id="pcalabresa"></td>
+        </tr>
+        <tr>
+          <td><img src= "https://coolicias.ao/wp-content/uploads/2019/10/Pizza-deliciosa-Portuguesa-muito-F%C3%A1cil.jpg" alt="pizza portuguesa" width="160" height="100"style="float:left;">PORTUGUESA
+          VALOR R$40</td>
+          <td><input type="number" placeholder="Quantidade" id="pportuguesa">
+        </tr>
+        <tr>
+          <td><img src= "https://st4.depositphotos.com/1000605/21857/i/600/depositphotos_218577628-stock-photo-tasty-four-cheese-pizza.jpg" alt="pizza portuguesa" width="160" height="100"style="float:left;">QUATRO QUEIJOS
+          VALOR R$45</td>
+          <td><input type="number" placeholder="Quantidade" id="pquatroqueijos">
+        </tr>
+        <tr><td><button onclick="comprar()">Finalizar compra</button></td></tr>
+      </table>
+      
+        
+    <script src="script.js"></script>
+  </body>
+</html>
